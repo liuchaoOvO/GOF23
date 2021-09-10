@@ -6,6 +6,10 @@ package com.lc.create.singleton;
  * @Created by liuchao58
  * @Description 单例模式(Singleton Pattern)：单例模式确保某一个类只有一个实例，并提供一个访问它的全剧访问点。
  * 单例模式下，对应类只能生成一个实例。就像一个王国只能有一个国王，一旦王国里的事务多起来，这唯一的国王也容易职责过重。
+ *
+ * 类型：
+ *     懒汉式 、饿汉式 、双检锁double-checked locking 、静态内部类、枚举型
+ *
  * <p>
  * 优点：
  * 提供了对唯一实例的受控访问。因为单例类封装了它的唯一实例，所以它可以严格控制客户怎样以及何时访问它。
@@ -18,16 +22,11 @@ package com.lc.create.singleton;
 public class Singleton {
 
     //1. 私有静态化单例实例成员变量 用于创建对象
+    // volatile 关键字作用：1.防止指令重排 2.内存可见  原因：对象的创建过程 类初始化和类实例化是两个过程,需要volatile关键字控制
     private volatile static Singleton singletonInstance = null;
-
-    /***
-     * 类型：
-     * 懒汉式 、饿汉式 、双检锁double-checked locking 、静态内部类、枚举型
-     */
 
     //2.私有化构造方法 防止外部创建对象
     private Singleton() {
-
     }
 
     //3. 公有静态化获取方法 用于返回 单例实例
