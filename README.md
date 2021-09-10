@@ -10,22 +10,22 @@
 * 原型模式（Prototype Pattern)
 
 ## 结构型
-* 外观模式
-* 适配器模式
-* 桥接模式
-* 代理模式
-* 装饰者模式
-* 享元模式
+* 外观模式 (Facade Pattern)
+* 适配器模式 (Adapter Pattern)
+* 桥接模式 (Bridge Pattern)
+* 代理模式 (Proxy Pattern) 
+* 装饰者模式 (Decorator Pattern) 
+* 享元模式 (Flyweight Pattern)
 
 ## 行为型
-* 职责链模式
-* 命令模式
-* 解释器模式
-* 迭代器模式
-* 中介者模式
-* 备忘录模式
-* 观察者模式
-* 状态模式
-* 策略模式
-* 模板方法模式
-* 访问者模式
+* 职责链模式 (Chain of Responsibility Pattern)
+* 命令模式 (Command Pattern)
+* 解释器模式 (Interpreter Pattern)
+* 迭代器模式 (Iterator Pattern)
+* 中介者模式 (Mediator Pattern)
+* 备忘录模式 (Memento Pattern)
+* 观察者模式 (Observer Pattern)
+* 状态模式 (State Pattern)
+* 策略模式 (Strategy Pattern)
+* 模板方法模式 （Template Pattern）
+* 访问者模式 (Visitor Pattern)
