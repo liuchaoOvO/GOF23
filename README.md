@@ -1,6 +1,5 @@
 # GOF23
-23 种设计模式demo code git repository
-
+23 种设计模式
 ## 创建型
 * 简单工厂模式（Simple Factory Pattern）
 * 工厂方法模式（Factory Method Pattern）
