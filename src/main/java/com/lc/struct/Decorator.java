@@ -15,6 +15,7 @@ package com.lc.struct;
  * DecoratorPatternDemo 类使用 RedShapeDecorator 来装饰 Shape 对象。
  */
 public class Decorator {
+
 }
 interface Shape {
     void draw();

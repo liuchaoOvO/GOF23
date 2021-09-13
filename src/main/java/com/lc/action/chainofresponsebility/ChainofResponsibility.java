@@ -1,4 +1,4 @@
-package com.lc.action;
+package com.lc.action.chainofresponsebility;
 
 /**
  * @Classname ChainofResponsibility
